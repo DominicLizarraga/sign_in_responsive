@@ -15,7 +15,6 @@ body {
     width: 220px;
     height: 450px;
     background-color: white;
-    border: 1px solid black;
 }
 
 .content-container {
@@ -79,5 +78,12 @@ input[type="submit"] {
     text-decoration: none;
     font-size: 10px;
     color: darkgray;
-
 }
+
+@media only screen and (min-width: 760px) {
+    .container {
+        box-shadow: -11px 3px 69px 0px rgba(0,0,0,0.75);
+        height: 270px;
+    
+    }
+  }
